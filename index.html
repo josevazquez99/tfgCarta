@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Digital - Nuestro Bar</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            background-color: #000;
+            color: white;
+        }
+        .container {
+            max-width: 750px;
+            margin: 40px auto;
+            background: #111;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+        .menu-item {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 165, 0, 0.2);
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(255, 165, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .menu-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-left: 15px;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #ffcc00, #ff6600);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            color: #ffcc00;
+            font-size: 26px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .order-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 2px 2px 5px rgba(255, 165, 0, 0.5);
+            transition: background 0.3s ease-in-out;
+        }
+        .order-button:hover {
+            background-color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nuestro Menú</h1>
+        <h2>Especialidades</h2>
+        
+        <div class="menu-item">
+            <h3>🍔 Hamburguesas</h3>
+            <p>Clásica $25 | Pollo $35 | Lentejas $25</p>
+            <img src="https://s2.abcstatics.com/abc/sevilla/media/gurme/2024/09/19/s/receta-de-la-mejor-hamburguesa-del-mundo.jpg-khAC--1248x698@abc.jpg" alt="Hamburguesa">
+        </div>
+        
+        <div class="menu-item">
+            <h3>🌭 Perros Calientes</h3>
+            <p>Clásico $25 | Especial $35 | Ranchero $25</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqTuJJ0FVjCuI3Pflt8McDEpLHn89PjIUftQ&s" alt="Perro caliente">
+        </div>
+        
+        <div class="menu-item">
+            <h3>🍕 Porción Pizza</h3>
+            <p>Carnes $25 | Vegetariana $35 | Pollo y miel $25</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCiW5pVbw2nkJUAWRa2PeHDuIa7ddJIshVeQ&s" alt="Pizza">
+        </div>
+        
+        <a href="#" class="order-button">📲 Hacer Pedido</a>
+        
+        <p style="margin-top: 20px; font-size: 14px; color: #bbb;">📍 Visítanos: Calle Cualquiera 123, Cualquier Lugar</p>
+        <p style="font-size: 14px; color: #bbb;">📞 Domicilio: (55) 1234-5678</p>
+    </div>
+</body>
+</html>
